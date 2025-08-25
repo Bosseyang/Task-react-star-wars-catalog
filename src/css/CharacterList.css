@@ -2,6 +2,6 @@
   text-align: center;
 }
 
-#character-list {
-    
+#character-list .characters {
+  padding-top: 1rem;
 }
