@@ -1,0 +1,6 @@
+.g-card {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 350px;
+
+  padding-block: 1rem;
+}
