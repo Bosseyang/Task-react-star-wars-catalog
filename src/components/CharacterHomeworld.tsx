@@ -19,5 +19,14 @@ export const CharacterHomeworld = ({
   } = homeworld;
 
   return (
+    <article className="character-homeworld">
+      <h3>{name}</h3>
+      <p>Rotation period: {rotation_period}</p>
+      <p>Orbital period: {orbital_period}</p>
+      <p>Diameter: {diameter}</p>
+      <p>Climate: {climate}</p>
+      <p>Gravity: {gravity}</p>
+      <p>Terrain: {terrain}</p>
+    </article>
   );
 };
