@@ -8,6 +8,16 @@ interface ICharacterDetailsProps {
 export const CharacterHomeworld = ({
   homeworld,
 }: ICharacterDetailsProps): ReactElement => {
+  const {
+    name,
+    rotation_period,
+    orbital_period,
+    diameter,
+    climate,
+    gravity,
+    terrain,
+  } = homeworld;
+
   return (
   );
 };
