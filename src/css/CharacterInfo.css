@@ -1,0 +1,4 @@
+#character-info {
+  display: flex;
+  flex-direction: column;
+}
