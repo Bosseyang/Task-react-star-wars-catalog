@@ -4,4 +4,8 @@
 
 #character-list .characters {
   padding-top: 1rem;
+#character-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
