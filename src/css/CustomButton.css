@@ -3,3 +3,7 @@
   border: none;
   color: var(--main-color);
 }
+
+.custom-button:hover {
+  cursor: pointer;
+}
