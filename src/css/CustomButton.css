@@ -7,3 +7,8 @@
 .custom-button:hover {
   cursor: pointer;
 }
+
+.custom-button:disabled {
+  color: lightgray;
+  cursor: not-allowed;
+}
