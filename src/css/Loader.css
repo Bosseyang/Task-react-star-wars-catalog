@@ -15,6 +15,10 @@
   animation: l21 1s infinite linear;
 }
 
+.loader-wrapper.small .loader {
+  width: 30px;
+}
+
 @keyframes l21 {
   100% {
     transform: rotate(0.5turn);
